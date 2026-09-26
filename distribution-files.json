@@ -1,7 +1,7 @@
 {
   "version": "0.1.0-beta.1",
   "file_count": 1201,
-  "total_bytes": 54418261,
+  "total_bytes": 54418311,
   "files": [
     {
       "path": ".gitattributes",
@@ -15,8 +15,8 @@
     },
     {
       "path": ".github/workflows/check.yml",
-      "bytes": 3004,
-      "sha256": "a7982e2063b367d1fa4990977d61527e401186a9da0401897ae585b52867fec4"
+      "bytes": 3054,
+      "sha256": "930f25ecf78d3125adc00eb9713b234d35024daf2e4352bc1e27544c9182c34c"
     },
     {
       "path": ".gitignore",
