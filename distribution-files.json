@@ -1,7 +1,7 @@
 {
   "version": "0.1.0-beta.1",
   "file_count": 1201,
-  "total_bytes": 54418311,
+  "total_bytes": 54419780,
   "files": [
     {
       "path": ".gitattributes",
@@ -220,8 +220,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 2662,
-      "sha256": "58122f76e367acce0e95f71a578bd7e72da8f7e9390d990234a74123ad89af39"
+      "bytes": 2795,
+      "sha256": "bc0ed5be217b5479c7e2d8da54cb1de8835348cfbb6b72cfa11c643d4312a0fe"
     },
     {
       "path": "LICENSE",
@@ -3285,8 +3285,8 @@
     },
     {
       "path": "tests/test_runtime_portability.py",
-      "bytes": 5842,
-      "sha256": "d542e96889fb643161c6c4d9f7455c16ea6f01fbac85be93439d5f894775b0a0"
+      "bytes": 7177,
+      "sha256": "d614744b774f3202d604dc5d68df7c008f0bab60596a32041da40a74d09aff67"
     },
     {
       "path": "tests/test_versions.py",
@@ -4810,8 +4810,8 @@
     },
     {
       "path": "upstream/voicebox/backend/services/local_runtime.py",
-      "bytes": 4288,
-      "sha256": "5c245a5cc8a625023a2038ece65cb3ff6018659bcc176d627e2b85ce5adacead"
+      "bytes": 4289,
+      "sha256": "f7e41a3f14902eb989c27cc64157c276c71415b483fdaecf03f79409065dd5e1"
     },
     {
       "path": "upstream/voicebox/backend/services/local_voice_library.py",

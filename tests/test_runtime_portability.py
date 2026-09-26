@@ -81,6 +81,31 @@ class RuntimePortabilityTests(unittest.TestCase):
         runtime.configure_process_tools(self.root, env)
         self.assertEqual(env["PATH"], "existing-ffmpeg")
 
+    @unittest.skipUnless(os.name == "nt", "Windows short-path aliases")
+    def test_private_ffmpeg_short_and_long_paths_are_the_same_tool_directory(self):
+        import ctypes
+        tool = self.root / "runtime/ffmpeg/bin/ffmpeg.exe"
+        tool.parent.mkdir(parents=True)
+        tool.touch()
+        buffer = ctypes.create_unicode_buffer(32768)
+        length = ctypes.windll.kernel32.GetShortPathNameW(str(self.root), buffer, len(buffer))
+        self.assertGreater(length, 0)
+        self.assertLess(length, len(buffer))
+        short_root = Path(buffer.value)
+        long_root = self.root.resolve()
+        if short_root == long_root:
+            self.skipTest("This volume does not create 8.3 path aliases")
+        short_bin = short_root / "runtime/ffmpeg/bin"
+        long_bin = long_root / "runtime/ffmpeg/bin"
+        env = {"PATH": os.pathsep.join([str(short_bin), str(long_bin), "system-tools"])}
+        runtime.configure_process_tools(short_root, env)
+        self.assertEqual(env["PATH"].split(os.pathsep), [str(short_bin), "system-tools"])
+        once = env["PATH"]
+        runtime.configure_process_tools(short_root, env)
+        self.assertEqual(env["PATH"], once)
+        runtime.configure_process_tools(long_root, env)
+        self.assertEqual(env["PATH"].split(os.pathsep), [str(long_bin), "system-tools"])
+
     def test_cuda_failure_is_actionable_without_loading_any_model(self):
         available = Mock(return_value=False)
         torch = SimpleNamespace(cuda=SimpleNamespace(is_available=available))

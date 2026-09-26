@@ -86,7 +86,7 @@ def configure_process_tools(root: Path, environ=None) -> None:
     existing = environ.get("PATH", "").split(os.pathsep)
     normalized = os.path.normcase(str(directory.resolve()))
     remaining = [part for part in existing if part and
-                 os.path.normcase(os.path.abspath(part)) != normalized]
+                 os.path.normcase(os.path.realpath(part)) != normalized]
     environ["PATH"] = os.pathsep.join([str(directory), *remaining])
 
 
