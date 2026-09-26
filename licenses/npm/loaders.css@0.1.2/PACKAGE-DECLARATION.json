@@ -1,0 +1,11 @@
+{
+  "name": "loaders.css",
+  "version": "0.1.2",
+  "license": "MIT",
+  "author": "Connor Atherton",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ConnorAtherton/loaders.css.git"
+  },
+  "homepage": "https://github.com/ConnorAtherton/loaders.css"
+}

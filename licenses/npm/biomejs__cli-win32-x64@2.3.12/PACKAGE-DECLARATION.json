@@ -1,0 +1,11 @@
+{
+  "name": "@biomejs/cli-win32-x64",
+  "version": "2.3.12",
+  "license": "MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biomejs/biome.git",
+    "directory": "packages/@biomejs/biome"
+  },
+  "homepage": "https://biomejs.dev"
+}

@@ -1,0 +1,29 @@
+name: 问题反馈
+description: 安装、启动、播放或生成异常
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 工具版本
+      placeholder: 例如 0.1.0-beta.1
+    validations:
+      required: true
+  - type: textarea
+    id: machine
+    attributes:
+      label: 机器配置
+      description: Windows 版本、显卡型号与显存、内存；无需填写姓名或电脑用户名。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤与现象
+      description: 说明点了哪个按钮、期望什么、实际发生什么，是否每次出现。
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 错误文字或截图
+      description: 请先移除密钥、本机个人路径及私人台词；不要上传整个 data 文件夹或参考录音。

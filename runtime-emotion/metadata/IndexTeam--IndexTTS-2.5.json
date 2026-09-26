@@ -1,0 +1,220 @@
+{
+  "_id": "6a79826f4af8f39de6e66034",
+  "id": "IndexTeam/IndexTTS-2.5",
+  "private": false,
+  "pipeline_tag": "text-to-speech",
+  "library_name": "indextts",
+  "tags": [
+    "indextts",
+    "safetensors",
+    "text-to-speech",
+    "tts",
+    "zero-shot",
+    "voice-cloning",
+    "multilingual",
+    "cross-lingual",
+    "emotion-controllable",
+    "zh",
+    "en",
+    "ja",
+    "es",
+    "ar",
+    "arxiv:2601.03888",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 13783,
+  "likes": 218,
+  "modelId": "IndexTeam/IndexTTS-2.5",
+  "author": "IndexTeam",
+  "sha": "c39ce5ba981572cb187443877ff559dfb246ce63",
+  "lastModified": "2026-08-12T07:23:44Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "language": [
+      "zh",
+      "en",
+      "ja",
+      "es",
+      "ar"
+    ],
+    "license": "other",
+    "license_name": "bilibili-model-license",
+    "license_link": "LICENSE",
+    "library_name": "indextts",
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "text-to-speech",
+      "tts",
+      "zero-shot",
+      "voice-cloning",
+      "multilingual",
+      "cross-lingual",
+      "emotion-controllable"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "60a39adde0ee17874295ead2cb83a360ae03b32b",
+      "size": 1589
+    },
+    {
+      "rfilename": "LICENSE",
+      "blobId": "b96dffb19fc6e0e048edf010f1cd0d54e8ce103c",
+      "size": 10553
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "7a58eb771ef86135b363c26ace868810ce1a2acc",
+      "size": 4272
+    },
+    {
+      "rfilename": "codec.pth",
+      "blobId": "182ed85fad1ffba7fde3bf0b54e465b07ec16c8d",
+      "size": 607290935,
+      "lfs": {
+        "sha256": "d15cbed16a40f478438c961fb043f68dfa6353bf56c966761315db3433e9722c",
+        "size": 607290935,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "config.yaml",
+      "blobId": "b3f15b22f394f2327de574e9b5801c1d9654e203",
+      "size": 2860
+    },
+    {
+      "rfilename": "feat1.pt",
+      "blobId": "3efb1545f32405073471a40277094678d7ef40ac",
+      "size": 57170,
+      "lfs": {
+        "sha256": "f219cb447d80216ba615666da2ff8d63ac544eee26657f3a7b278692bf7a67c4",
+        "size": 57170,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "feat2.pt",
+      "blobId": "42b51075f698aea46002f1f503962137b5158130",
+      "size": 374866,
+      "lfs": {
+        "sha256": "9c4292e96dee535aea9a6206e9a0c856dd578dde9212acdb16dd3ada4d12bf80",
+        "size": 374866,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "gpt.pth",
+      "blobId": "c888a2647673d320c05d5ef134d84788b0d7b5d0",
+      "size": 3259599833,
+      "lfs": {
+        "sha256": "43a8f4c30eccdf201958d3b9713511482c19d56dc20b0b1c4ee1e6b080b19d85",
+        "size": 3259599833,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "multilingual_zh_ja_yue_char_del.tiktoken",
+      "blobId": "ac47fe685d24565030965a94c0d98e00e0331eaa",
+      "size": 907395
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/Modelfile",
+      "blobId": "b1bed86c7c360343f16d4580b7fb6a19182da273",
+      "size": 360
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/added_tokens.json",
+      "blobId": "b54f9135e44c1e81047e8d05cb027af8bc039eed",
+      "size": 707
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/chat_template.jinja",
+      "blobId": "d153f82f7ba7ddc6bfb46217304f0b5c8cc96044",
+      "size": 550
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/config.json",
+      "blobId": "2b9955706f283df53046c7eaa9bc4137139c11aa",
+      "size": 727
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/generation_config.json",
+      "blobId": "520e468ea8345d57d70ba673ca62c2056c3c616b",
+      "size": 117
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/merges.txt",
+      "blobId": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "size": 1671853
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/model.safetensors",
+      "blobId": "90c4706d7c97351fa91f5645b527b8a53be298e5",
+      "size": 1192135096,
+      "lfs": {
+        "sha256": "11293257a8df593c154a8ecd5fc039f3076de35411e35f06d41b471e136f6641",
+        "size": 1192135096,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/special_tokens_map.json",
+      "blobId": "17305b3603dfb19ccc0f658ec2cd2cd3adff4a58",
+      "size": 616
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/tokenizer.json",
+      "blobId": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+      "size": 11422654,
+      "lfs": {
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "size": 11422654,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/tokenizer_config.json",
+      "blobId": "275ab4b74f4d4206ca5dcb2213961d380063ffb2",
+      "size": 5433
+    },
+    {
+      "rfilename": "qwen0.6bemo4-merge/vocab.json",
+      "blobId": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "size": 2776833
+    },
+    {
+      "rfilename": "s2mel.pth",
+      "blobId": "956998bc33bfeba8a0b902272be96e821ad6354d",
+      "size": 414908601,
+      "lfs": {
+        "sha256": "9b1b0003fc189c94cc349758d7ebc25f903b7eb2de4602879959cc64ce816456",
+        "size": 414908601,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "wav2vec2bert_stats.pt",
+      "blobId": "1a8ecb924668659f3b1a9c35b02b2f8839fd8c5a",
+      "size": 9343,
+      "lfs": {
+        "sha256": "c9c176c2b8850ab2e3ba828bbfa969deaf4566ce55db5f2687b8430b87526ad2",
+        "size": 9343,
+        "pointerSize": 129
+      }
+    }
+  ],
+  "spaces": [
+    "hf-audio/open_tts_leaderboard",
+    "IndexTeam/IndexTTS-2.5-Demo",
+    "Othmanqw12/IndexTTS-2.5-Demo",
+    "D300274/IndexTTS-2.5-Demo",
+    "NattieTheSuccubus/IndexTTS-2.5-Demo"
+  ],
+  "createdAt": "2026-08-10T07:49:03Z",
+  "usedStorage": 5485798498
+}

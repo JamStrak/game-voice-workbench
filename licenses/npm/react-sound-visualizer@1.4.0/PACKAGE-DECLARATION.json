@@ -1,0 +1,11 @@
+{
+  "name": "react-sound-visualizer",
+  "version": "1.4.0",
+  "license": "ISC",
+  "author": "ej-shafran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ej-shafran/react-sound-visualizer.git"
+  },
+  "homepage": "https://github.com/ej-shafran/react-sound-visualizer#readme"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "keyv",
+  "version": "4.5.4",
+  "license": "MIT",
+  "author": "Jared Wray <me@jaredwray.com> (http://jaredwray.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredwray/keyv.git"
+  },
+  "homepage": "https://github.com/jaredwray/keyv"
+}

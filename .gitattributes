@@ -1,0 +1,9 @@
+# Preserve the exact release bytes and distribution-files.json checksums.
+* -text
+*.wav binary
+*.png binary
+*.webp binary
+*.ico binary
+*.vbs -text
+*.ps1 -text
+*.lock -text

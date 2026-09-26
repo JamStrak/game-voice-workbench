@@ -1,0 +1,9 @@
+{
+  "name": "@esbuild/win32-x64",
+  "version": "0.21.5",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanw/esbuild.git"
+  }
+}

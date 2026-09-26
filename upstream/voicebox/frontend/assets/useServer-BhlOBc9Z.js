@@ -1,0 +1,1 @@
+import{af as t,n as s,o as a}from"./index-CNMI7Ni-.js";function n(){const e=t(r=>r.serverUrl);return s({queryKey:["server","health",e],queryFn:()=>a.getHealth(),refetchInterval:3e4,retry:1})}export{n as u};

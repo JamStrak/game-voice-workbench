@@ -1,0 +1,303 @@
+{
+  "_id": "66952d1694d49f9e3aa6b2e5",
+  "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+  "private": false,
+  "pipeline_tag": "audio-to-audio",
+  "library_name": "PyTorch",
+  "tags": [
+    "PyTorch",
+    "neural-vocoder",
+    "audio-generation",
+    "audio-to-audio",
+    "arxiv:2206.04658",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 1384919,
+  "likes": 33,
+  "modelId": "nvidia/bigvgan_v2_22khz_80band_256x",
+  "author": "nvidia",
+  "sha": "633ff708ed5b74903e86ff1298cf4a98e921c513",
+  "lastModified": "2024-09-05T03:36:23Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit",
+    "license_link": "https://huggingface.co/nvidia/BigVGAN/blob/main/LICENSE",
+    "tags": [
+      "neural-vocoder",
+      "audio-generation"
+    ],
+    "library_name": "PyTorch",
+    "pipeline_tag": "audio-to-audio"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": ".gitignore",
+      "blobId": "1c7327715dd7dba1a61f9a3eb4630b4cda3ec9b5",
+      "size": 1634
+    },
+    {
+      "rfilename": "LICENSE",
+      "blobId": "45b7741b4516c22d7314c5f856b17f713bac91af",
+      "size": 1076
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "cb0adf5a6815c78cb7993b3b8083427d20e7357d",
+      "size": 8038
+    },
+    {
+      "rfilename": "activations.py",
+      "blobId": "61f2808a5466b3cf4d041059700993af5527dd29",
+      "size": 4504
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/__init__.py",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/activation1d.py",
+      "blobId": "fbc0fd8f28a37ad949fbdb9832f51b5b933c6ff2",
+      "size": 2555
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/anti_alias_activation.cpp",
+      "blobId": "c5651f77143bd678169eb11564a7cf7a7969a59e",
+      "size": 977
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/anti_alias_activation_cuda.cu",
+      "blobId": "8c442334869fe72d639ec203fa4fac07f96a0ee1",
+      "size": 10328
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/compat.h",
+      "blobId": "25818b2edf4cb0dc9130e62c7c4de8d16a01baa5",
+      "size": 893
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/load.py",
+      "blobId": "ca5d01de398249e75e9e2298958764acb436edba",
+      "size": 2594
+    },
+    {
+      "rfilename": "alias_free_activation/cuda/type_shim.h",
+      "blobId": "5db7e8a397e982d4d30d16ab6060814b98b7ab83",
+      "size": 5838
+    },
+    {
+      "rfilename": "alias_free_activation/torch/__init__.py",
+      "blobId": "8f756ed83f87f9839e457b240f60469bc187707d",
+      "size": 200
+    },
+    {
+      "rfilename": "alias_free_activation/torch/act.py",
+      "blobId": "cc6e9f81d57782e6a87182abd795f68d8b8a22e7",
+      "size": 852
+    },
+    {
+      "rfilename": "alias_free_activation/torch/filter.py",
+      "blobId": "0fa35b0d5ddf8d6cb04cd9d47364ca033cebcd32",
+      "size": 3401
+    },
+    {
+      "rfilename": "alias_free_activation/torch/resample.py",
+      "blobId": "f3211503423313232095887f3df849c710097dfb",
+      "size": 1885
+    },
+    {
+      "rfilename": "bigvgan.py",
+      "blobId": "4422ec6b84317d74973d2309f651b0d8fbc57026",
+      "size": 17483
+    },
+    {
+      "rfilename": "bigvgan_discriminator_optimizer.pt",
+      "blobId": "c12fd5e5105e8a82a979b9d3772af4f7866ee5a2",
+      "size": 1445698760,
+      "lfs": {
+        "sha256": "2d0960ae4abecc9a33cd989b8e124c13a436e54db8dc5ae32cd5a82e1bfc1a93",
+        "size": 1445698760,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "bigvgan_discriminator_optimizer_3msteps.pt",
+      "blobId": "0ddd1bb2f382402b6eed10cc26013137829e547e",
+      "size": 1445698760,
+      "lfs": {
+        "sha256": "3a6179837741c10337a8bd1a7fd2a2df3dfbc50d67c0be2c1567e09e58675d46",
+        "size": 1445698760,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "bigvgan_generator.pt",
+      "blobId": "8d615250f07a44490d74033318fd330be67f4a86",
+      "size": 449228171,
+      "lfs": {
+        "sha256": "e95ba25972d3de0628d99cd156e9315a9c018899bf739988959ebe3544080ced",
+        "size": 449228171,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "bigvgan_generator_3msteps.pt",
+      "blobId": "54d8ce513f129f19e961de255c8301e33719d18b",
+      "size": 449228171,
+      "lfs": {
+        "sha256": "ee7862b70ad758a26e61f9901f3d3cbd187c26ea52d8adf8bded12bfe0603edb",
+        "size": 449228171,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "635bd8975629bd6d4b51c409986944a281cfe7be",
+      "size": 1405
+    },
+    {
+      "rfilename": "env.py",
+      "blobId": "b8be238d4db710c8c9a338d336baea0138f18d1f",
+      "size": 510
+    },
+    {
+      "rfilename": "meldataset.py",
+      "blobId": "5e89d7384755e725c946aff3884834e15e295a16",
+      "size": 11420
+    },
+    {
+      "rfilename": "nv-modelcard++/.gitkeep",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "nv-modelcard++/bias.md",
+      "blobId": "4b388c28d09b8ca3aab5096304c52e1a5dac0e16",
+      "size": 664
+    },
+    {
+      "rfilename": "nv-modelcard++/explainability.md",
+      "blobId": "6f1a16676e438ba95f9d411a19e04a0f13409e54",
+      "size": 4199
+    },
+    {
+      "rfilename": "nv-modelcard++/overview.md",
+      "blobId": "a39cba0b49a4a32a37afa90f2baf4630dcd9cadc",
+      "size": 7166
+    },
+    {
+      "rfilename": "nv-modelcard++/privacy.md",
+      "blobId": "73554a998384ca1b1050239ebd51bda46aec1878",
+      "size": 2632
+    },
+    {
+      "rfilename": "nv-modelcard++/safety.md",
+      "blobId": "ed30370dfedbbb49748706034a7153d54f1a668f",
+      "size": 1584
+    },
+    {
+      "rfilename": "utils.py",
+      "blobId": "888ea8948b3d3bce6296a2df4b198db8742cc381",
+      "size": 2563
+    }
+  ],
+  "spaces": [
+    "Plachta/Seed-VC",
+    "Uniaff/Seed-VC",
+    "multimodalart/scenema-audio",
+    "Kalapak/sotaka_voice_ai",
+    "vincenthugging/Seed-VC",
+    "soiz1/seed-vc3",
+    "antoniomae1234/Seed-VC-characters",
+    "Quantumhash/Quantum_Voice_Clone",
+    "frascuchon/Seed-VC",
+    "DreamSyncCo/IndicVoiceChanger",
+    "mengtoa/Seed-VC",
+    "soiz1/Seed-VC",
+    "phuoc2005/seed-vc",
+    "mmwmm/Seed-VC",
+    "sp2026/Seed-VC",
+    "Specialgfhdhdh/singing-voice-cloner",
+    "MTNProductions/Seed-VC",
+    "aiqtech/songclon",
+    "khavailed1/Seed-VC",
+    "soiz/Seed-VC",
+    "soiz/Seed-VC-api",
+    "ArtsyVRC/Seed-VC",
+    "soiz1/Seed-VC-characters",
+    "SpongeBobFan2002/Seed-VC",
+    "niaodtianatng/Seed-VC",
+    "antoniomae1234/SeedVCcharacters",
+    "antoniomae1234/SeedVC",
+    "amks7/Seed-VC",
+    "Bajiyo/Seed-VC_test_2",
+    "Akatuki25/seed-vc-streaming",
+    "Munna5310/Seed-VC",
+    "dandan0311/sykelong",
+    "deep-oasis8/Seed-VC",
+    "Sofiane13240/Seed-VC-characters",
+    "jameshuntercarter/Seed-VC-3",
+    "Xavi99/Seed-VC",
+    "RonbooRon/Seed-VC",
+    "Usagert12/Seed-VC_test_2",
+    "smartwang/seedvc",
+    "Marigold1122/Seed-VC",
+    "anvesh54321/IndicVoiceChanger",
+    "smartwang/seedvc-uvr",
+    "mphi/damberg-vc",
+    "subikshababu/TTS",
+    "kevinzekeayushishan/Seed-VC",
+    "Xtciaan/Seed-VC",
+    "Marwan132/Seed-VC",
+    "GuaditaJu4rez/Seed-VC",
+    "Zhdoendbdksndkdbdkskjsnsldbdk/Seed-VC",
+    "ffgxfgxfddf/Seed-VC",
+    "Niguel/Seed-VC",
+    "Pnevka/Seed-VC",
+    "AhmedMUN/Seed-VC2",
+    "AhmedMUN/Seed-VC1",
+    "inkuei/basaytts",
+    "1eko/Seed-VC",
+    "Landol4/Seed-VC",
+    "zeeburgers/Seed-VCc",
+    "shubhxm20/Seed-VC",
+    "jofl/seed-vc",
+    "sreesaiarjun/IndicVoiceChanger",
+    "DilshanIRU/Seed-VC",
+    "mwdi2702/my-voice-bot-1",
+    "ziyadmohammed/Seed-VC",
+    "hardcoremoore/scenema-audio",
+    "Pixalesce/VoiceVeil",
+    "piska228/seed-vc",
+    "antoniomae1234/Seed-VC2",
+    "josecardido/seed-vc2",
+    "Timamar/Seed-VC",
+    "Oneteste/Seed-VC",
+    "CureBeep29/Seed-VC",
+    "entitygumby/Seed-VC_Platcha",
+    "entitygumby/Seed-VC_MTN",
+    "AiWorkflowPro/Seed-VC",
+    "MissAdaChan/Seed-VC",
+    "cysjunkatschool/Seed-VC",
+    "NattieTheSuccubus/singing-voice-cloner",
+    "lbmodels/Seed-VC",
+    "don0726/Seed-VC",
+    "Dayyan12/Seed-VC",
+    "Linda2345/Seed-VC",
+    "Niguel/Seed-VC-Toon",
+    "QuranKidsStudio/Seed-VC",
+    "Brunocezar2024/Seed-VC",
+    "sayantanacharya7776969/Seed-VC"
+  ],
+  "createdAt": "2024-07-15T14:07:18Z",
+  "usedStorage": 3789853862
+}

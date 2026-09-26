@@ -1,0 +1,15 @@
+{
+  "name": "imurmurhash",
+  "version": "0.1.4",
+  "license": "MIT",
+  "author": {
+    "name": "Jens Taylor",
+    "email": "jensyt@gmail.com",
+    "url": "https://github.com/homebrewing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jensyt/imurmurhash-js"
+  },
+  "homepage": "https://github.com/jensyt/imurmurhash-js"
+}

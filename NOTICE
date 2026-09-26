@@ -1,0 +1,48 @@
+配音工作台 — Third-party attribution and license scope
+
+This application is based on Voicebox by Voicebox Contributors.
+Upstream: https://github.com/jamiepine/voicebox
+Source revision: 51f49dea198384b4eb6087b72c17057c6eb1c1cd
+Copyright (c) 2026 Voicebox Contributors. MIT License.
+The upstream copyright and permission notice is retained in
+licenses/Voicebox-MIT.txt and upstream/voicebox/LICENSE.
+
+This distribution contains modifications for a Chinese local voice workbench,
+including a voice library, expression controls, batch dialogue, local inference
+integration, startup, and playback improvements. It is an independent derivative
+application. Upstream names identify the sources; they do not imply sponsorship.
+
+The root software license does not replace licenses of third-party components,
+downloaded models, or audio examples. See THIRD_PARTY_NOTICES.md and licenses/.
+
+Qwen3-TTS attribution:
+Qwen Team / Alibaba Cloud. Qwen3-TTS source and referenced models use Apache-2.0.
+https://github.com/QwenLM/Qwen3-TTS
+https://huggingface.co/Qwen
+
+IndexTTS attribution:
+Bilibili IndexTTS Team. Optional IndexTTS source/model use and the 27 bundled
+IndexTTS-generated emotional examples are subject to the accompanying bilibili
+Model Use License Agreement, not the root MIT license. The agreement's Chinese
+text prevails over the English text in case of a discrepancy.
+https://github.com/index-tts/index-tts
+https://huggingface.co/IndexTeam/IndexTTS-2.5
+
+该衍生品对原模型所作的任何改动与原模型原始权利人无关，原始权利人对该衍生品不背书、不担保、不承担责任。
+
+Any modifications made to the original model in this Derivative Work are not
+endorsed, warranted, or guaranteed by the original right-holder of the original
+model, and the original right-holder disclaims all liability related to this
+Derivative Work.
+
+The 27 emotional examples must be used and redistributed in compliance with the
+accompanying IndexTTS agreement. Keep this notice and its complete license with
+copies. No claim of unrestricted commercial use or permission to train unrelated
+commercial AI models is made. Do not use these examples if you do not accept
+their applicable terms. Qwen-only natural examples are identified separately in
+data/voice-library/catalog.json.
+
+FFmpeg, Python, PyTorch, and speech-model weights are not bundled in the small
+application distribution. Components installed from their upstream sources keep
+their own licenses and third-party notices. npm attribution files cover the
+installed frontend/build dependency snapshot; see licenses/npm-manifest.json.

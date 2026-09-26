@@ -1,0 +1,13 @@
+{
+  "custom_voice_model": "models/qwen-custom-voice-0.6b",
+  "custom_voice_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+  "base_model": "models/qwen-base-0.6b",
+  "base_revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+  "resource_guard": null,
+  "preferred_port": 23164,
+  "emotion_model": "models/indextts-2.5",
+  "emotion_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+  "emotion_source_revision": "ee40fa7d6c6b8a2c7f06105f9f1e65775b74868c",
+  "emotion_ready": false,
+  "emotion_analyzer_ready": false
+}

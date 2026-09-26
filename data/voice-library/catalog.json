@@ -1,0 +1,1483 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-23",
+  "review_status": "technical_checks_only",
+  "voices": [
+    {
+      "id": "qwen-vivian",
+      "name": "Vivian · 明亮少女",
+      "speaker": "Vivian",
+      "gender": "female",
+      "native_language": "zh",
+      "description": "明亮、年轻的女声，适合活泼伙伴与轻快引导。",
+      "tags": [
+        "女声",
+        "明亮",
+        "伙伴",
+        "普通话"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-vivian/natural.wav",
+          "duration": 6.0,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "bdb29baef5286b1ccc2e90d73ea2636aca07a0c4edd0e127814645d5ee7bcd74",
+          "production_seconds": 27.841,
+          "checks": {
+            "finite": true,
+            "peak": 0.609375,
+            "rms": 0.09249386191368103,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-vivian/happy.wav",
+          "duration": 2.868,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "e413ad5b1ff30a34b934fbbe0d12932c933a156b423118f78e632653d60acb04",
+          "production_seconds": 20.047,
+          "checks": {
+            "finite": true,
+            "peak": 0.86187744140625,
+            "rms": 0.1288243532180786,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-vivian/angry.wav",
+          "duration": 4.11,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "da3610d56cc55e7b7edad1d462fc3839bc59d94cd3d7022a3ab420c050ffe0b3",
+          "production_seconds": 6.062,
+          "checks": {
+            "finite": true,
+            "peak": 0.98150634765625,
+            "rms": 0.13229188323020935,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-vivian/sad.wav",
+          "duration": 3.785,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "60fd3cfc9d4a5a0c483041788222fc4452d8f46086601865dc39707d4799bf16",
+          "production_seconds": 5.798,
+          "checks": {
+            "finite": true,
+            "peak": 0.79156494140625,
+            "rms": 0.0866984874010086,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-serena",
+      "name": "Serena · 温柔女声",
+      "speaker": "Serena",
+      "gender": "female",
+      "native_language": "zh",
+      "description": "温暖轻柔的女声，适合治愈角色、讲述与陪伴。",
+      "tags": [
+        "女声",
+        "温柔",
+        "旁白",
+        "普通话"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-serena/natural.wav",
+          "duration": 5.2,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "8598b1f86955c6a1c8b2f7c85c9b20b30bbb93291d3f9130383b86b273a492fa",
+          "production_seconds": 22.646,
+          "checks": {
+            "finite": true,
+            "peak": 0.451171875,
+            "rms": 0.0583251491189003,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-serena/happy.wav",
+          "duration": 2.426,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "6c6cd0fca6a2cc322b45edc6848ed71bda48e97e657782fd05605846688bbdfa",
+          "production_seconds": 9.277,
+          "checks": {
+            "finite": true,
+            "peak": 0.73974609375,
+            "rms": 0.08374011516571045,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-serena/angry.wav",
+          "duration": 2.752,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "b124971ffd748cbd6249c7e499bf2fd8ed73bedc87021ab6967e8f6158049461",
+          "production_seconds": 4.215,
+          "checks": {
+            "finite": true,
+            "peak": 0.6409912109375,
+            "rms": 0.05764242261648178,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-serena/sad.wav",
+          "duration": 3.669,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "2721215e32f5acc20d5fc04093a27fbb0f84cd946fd119789167b1f386017804",
+          "production_seconds": 5.321,
+          "checks": {
+            "finite": true,
+            "peak": 0.635528564453125,
+            "rms": 0.059897810220718384,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-uncle-fu",
+      "name": "Uncle Fu · 沉稳长者",
+      "speaker": "Uncle_Fu",
+      "gender": "male",
+      "native_language": "zh",
+      "description": "成熟醇厚的男声，适合长者、导师和故事讲述。",
+      "tags": [
+        "男声",
+        "成熟",
+        "导师",
+        "普通话"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-uncle-fu/natural.wav",
+          "duration": 9.44,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "0753f622771d2f741176370f31e091378c3feb045fe29ebd20b97dad958ee88a",
+          "production_seconds": 39.806,
+          "checks": {
+            "finite": true,
+            "peak": 0.447265625,
+            "rms": 0.060767609626054764,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-uncle-fu/happy.wav",
+          "duration": 3.344,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "f4b0b116f4cd3ee96079cc982d7ac8b07fc0449f01f7f502f796f8f2dab2790f",
+          "production_seconds": 18.758,
+          "checks": {
+            "finite": true,
+            "peak": 0.876617431640625,
+            "rms": 0.12236154079437256,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-uncle-fu/angry.wav",
+          "duration": 4.667,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "dcef1d777786978c856372d8427169e818c380c4b181f5528f4bbe762495f57a",
+          "production_seconds": 7.387,
+          "checks": {
+            "finite": true,
+            "peak": 1.0,
+            "rms": 0.13502822816371918,
+            "clipped_fraction": 9.717039800995025e-06
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-uncle-fu/sad.wav",
+          "duration": 3.831,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "6a865549a9d5122b3425f50b8ecdcc36a9b9b897c724b1d0683bb315400566d4",
+          "production_seconds": 6.298,
+          "checks": {
+            "finite": true,
+            "peak": 1.0,
+            "rms": 0.14865092933177948,
+            "clipped_fraction": 1.1837121212121212e-05
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-dylan",
+      "name": "Dylan · 京味青年",
+      "speaker": "Dylan",
+      "gender": "male",
+      "native_language": "zh",
+      "description": "年轻清晰的北京男声，适合市井青年和轻松对话。",
+      "tags": [
+        "男声",
+        "青年",
+        "京味",
+        "伙伴"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-dylan/natural.wav",
+          "duration": 6.88,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "f8ffa6e4ad0a2fb79ffbf2be4781b733a3bb1edf78aa4373384fb331e4fd721b",
+          "production_seconds": 29.657,
+          "checks": {
+            "finite": true,
+            "peak": 0.2421875,
+            "rms": 0.024916522204875946,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-dylan/happy.wav",
+          "duration": 3.274,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "e2735757342b361aa502567a034308e166cb18694c3c0947390de3cc73bf042a",
+          "production_seconds": 12.911,
+          "checks": {
+            "finite": true,
+            "peak": 0.33447265625,
+            "rms": 0.0409790575504303,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-dylan/angry.wav",
+          "duration": 3.506,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "07adb192316a20eaeb7bb251880ba958169499e9a11cace7cd10af6f13b4c47f",
+          "production_seconds": 5.571,
+          "checks": {
+            "finite": true,
+            "peak": 0.725311279296875,
+            "rms": 0.07425108551979065,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-dylan/sad.wav",
+          "duration": 3.866,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "3f3a3462a623a209d50b2883033089e471f0325d217df630a73c14f2a245c7e6",
+          "production_seconds": 5.97,
+          "checks": {
+            "finite": true,
+            "peak": 0.546478271484375,
+            "rms": 0.0521998330950737,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-eric",
+      "name": "Eric · 川味青年",
+      "speaker": "Eric",
+      "gender": "male",
+      "native_language": "zh",
+      "description": "活泼的成都男声，适合诙谐角色与生活化对话。",
+      "tags": [
+        "男声",
+        "活泼",
+        "川味",
+        "商人"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-eric/natural.wav",
+          "duration": 5.28,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "d84d378ce7a74dc64776f58cb610c5c43afc680fe3e26d2b091bbdee023205cb",
+          "production_seconds": 22.778,
+          "checks": {
+            "finite": true,
+            "peak": 0.54296875,
+            "rms": 0.05823322758078575,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-eric/happy.wav",
+          "duration": 2.705,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "7d72a3e589f8ff6a8d797abfb546b2e7e94f5e50be37ff99acba9a9d850a1c4b",
+          "production_seconds": 9.826,
+          "checks": {
+            "finite": true,
+            "peak": 0.55596923828125,
+            "rms": 0.08902844786643982,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-eric/angry.wav",
+          "duration": 2.995,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "cba867b1c9968d66755743d1c6747895340f08892e88818132ac973ade48e9bf",
+          "production_seconds": 4.545,
+          "checks": {
+            "finite": true,
+            "peak": 0.815277099609375,
+            "rms": 0.09103621542453766,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-eric/sad.wav",
+          "duration": 4.307,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "5b79957b22c0c875f007239cc7a0df7b8a5cfb6be814f6a723c604d0cdd6deaa",
+          "production_seconds": 6.076,
+          "checks": {
+            "finite": true,
+            "peak": 0.576568603515625,
+            "rms": 0.06191746145486832,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-ryan",
+      "name": "Ryan · 活力男声",
+      "speaker": "Ryan",
+      "gender": "male",
+      "native_language": "en",
+      "description": "节奏鲜明的男声，适合行动角色和宣传旁白。英语底色，本库提供中文试听。",
+      "tags": [
+        "男声",
+        "有力",
+        "旁白",
+        "英语底色"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ryan/natural.wav",
+          "duration": 6.16,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "eee31a4c223813659ef05e0f198acaef48691c46327fe53ecb4162eeea9eb503",
+          "production_seconds": 26.193,
+          "checks": {
+            "finite": true,
+            "peak": 0.54296875,
+            "rms": 0.056898266077041626,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ryan/happy.wav",
+          "duration": 2.752,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "b4443ccdceaba84b242d219fb6e9f8c88acdbbc56caadec39760b135af69bdb3",
+          "production_seconds": 11.24,
+          "checks": {
+            "finite": true,
+            "peak": 0.926971435546875,
+            "rms": 0.12336482852697372,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ryan/angry.wav",
+          "duration": 3.587,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "4fa4fe86f686fc7dfdf3597c7b5e225f0ea9259a3b175e3055a7546e317a32b2",
+          "production_seconds": 31.882,
+          "checks": {
+            "finite": true,
+            "peak": 0.75,
+            "rms": 0.09849816560745239,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ryan/sad.wav",
+          "duration": 4.11,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "b8f31342fd403c04d086c8efa0b3b40f1b340ab417dc7f117a536cf45f72b361",
+          "production_seconds": 6.309,
+          "checks": {
+            "finite": true,
+            "peak": 0.5281982421875,
+            "rms": 0.06896043568849564,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-aiden",
+      "name": "Aiden · 阳光青年",
+      "speaker": "Aiden",
+      "gender": "male",
+      "native_language": "en",
+      "description": "清亮的美国青年男声，适合爽朗伙伴。英语底色，本库提供中文试听。",
+      "tags": [
+        "男声",
+        "阳光",
+        "伙伴",
+        "英语底色"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-aiden/natural.wav",
+          "duration": 6.0,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "6d96081b336d2a5011050f5cc913cbb91015bb454fd9e281fbcb8837b7ea0172",
+          "production_seconds": 24.86,
+          "checks": {
+            "finite": true,
+            "peak": 0.71484375,
+            "rms": 0.11910468339920044,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-aiden/happy.wav",
+          "duration": 2.705,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "db3aeb435a63a82600a90def97788056c18e364687557c7d44d711c4839b0b27",
+          "production_seconds": 10.697,
+          "checks": {
+            "finite": true,
+            "peak": 0.9058837890625,
+            "rms": 0.18233302235603333,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-aiden/angry.wav",
+          "duration": 3.506,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "14fbc0b691ac944c19de91b0ed2ecbfb0caf259eb04ccf877e01b15df799722d",
+          "production_seconds": 5.642,
+          "checks": {
+            "finite": true,
+            "peak": 1.0,
+            "rms": 0.16565127670764923,
+            "clipped_fraction": 9.054221854304636e-05
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-aiden/sad.wav",
+          "duration": 4.702,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "dda826835d1e66232dec44307ee955327ee82c50fafcd7bbd17d4a12a7e1f34b",
+          "production_seconds": 6.513,
+          "checks": {
+            "finite": true,
+            "peak": 0.816497802734375,
+            "rms": 0.10677897930145264,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-ono-anna",
+      "name": "Ono Anna · 轻盈少女",
+      "speaker": "Ono_Anna",
+      "gender": "female",
+      "native_language": "ja",
+      "description": "轻巧活泼的日本女声，适合灵动角色。日语底色，本库提供中文试听。",
+      "tags": [
+        "女声",
+        "轻盈",
+        "灵动",
+        "日语底色"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ono-anna/natural.wav",
+          "duration": 6.16,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "8ad5b87a43bec2c7b9c09e6a7ec785e399c7358b168620c0a3926c4440338f4a",
+          "production_seconds": 26.004,
+          "checks": {
+            "finite": true,
+            "peak": 0.18359375,
+            "rms": 0.024267122149467468,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ono-anna/happy.wav",
+          "duration": 2.67,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "12cb7210c888599006e2fee66892fefcf7ed5d9bc0a426181ad14840ab6a5daf",
+          "production_seconds": 11.792,
+          "checks": {
+            "finite": true,
+            "peak": 0.19757080078125,
+            "rms": 0.021042482927441597,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ono-anna/angry.wav",
+          "duration": 3.065,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "6ae66879dd431b9756c64cfcba4ebcc20ee32f9ed7edfc269d5849a70dce06ba",
+          "production_seconds": 5.307,
+          "checks": {
+            "finite": true,
+            "peak": 0.18878173828125,
+            "rms": 0.01934657245874405,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-ono-anna/sad.wav",
+          "duration": 3.913,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "6550dfc69ab702f39487054635555f3c29d988c199750b02d7b05b86c0b9d2e0",
+          "production_seconds": 5.852,
+          "checks": {
+            "finite": true,
+            "peak": 0.13995361328125,
+            "rms": 0.01937136985361576,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "qwen-sohee",
+      "name": "Sohee · 温暖女声",
+      "speaker": "Sohee",
+      "gender": "female",
+      "native_language": "ko",
+      "description": "温暖柔和的韩国女声，适合亲切的角色。韩语底色，本库提供中文试听。",
+      "tags": [
+        "女声",
+        "温暖",
+        "陪伴",
+        "韩语底色"
+      ],
+      "source_name": "Qwen3-TTS 0.6B",
+      "language": "zh",
+      "samples": [
+        {
+          "id": "natural",
+          "label": "自然",
+          "text": "你好，我会认真说好每一句台词，让故事中的角色鲜活起来。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "natural",
+            "emotion": "calm",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-sohee/natural.wav",
+          "duration": 6.64,
+          "engine": "qwen_custom_voice",
+          "model_size": "0.6B",
+          "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "sample_rate": 24000,
+          "sha256": "80dce147cc70eede4bc9f6e93dea2638733a01121ed77dd39e064dd24ee7b511",
+          "production_seconds": 28.043,
+          "checks": {
+            "finite": true,
+            "peak": 0.474609375,
+            "rms": 0.05731234326958656,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "happy",
+          "label": "开心",
+          "text": "太好了，我们终于成功了！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "happy",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-sohee/happy.wav",
+          "duration": 3.03,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.5625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "138f69c8485d34439be2bf2feaa6ee807dc5a6ffa5fcf08f5e21cc9f81aed577",
+          "production_seconds": 12.093,
+          "checks": {
+            "finite": true,
+            "peak": 0.48345947265625,
+            "rms": 0.0680440217256546,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "angry",
+          "label": "愤怒",
+          "text": "你怎么能这样？我真的很生气！",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "angry",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-sohee/angry.wav",
+          "duration": 3.03,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.525,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "3472feb8ea0e6b102fe33b635a69a87ac161effa728632bea3edaebd3209ed40",
+          "production_seconds": 4.798,
+          "checks": {
+            "finite": true,
+            "peak": 0.71875,
+            "rms": 0.08864611387252808,
+            "clipped_fraction": 0.0
+          }
+        },
+        {
+          "id": "sad",
+          "label": "悲伤",
+          "text": "你走以后，这里就只剩下我了。",
+          "language": "zh",
+          "status": "ready",
+          "expression": {
+            "mode": "manual",
+            "emotion": "sad",
+            "intensity": "medium",
+            "instruction": ""
+          },
+          "audio_path": "qwen-sohee/sad.wav",
+          "duration": 4.029,
+          "engine": "indextts",
+          "model_size": null,
+          "model_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+          "seed": 20260923,
+          "review_status": "not_listened",
+          "applied_vector": [
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_rate": 22050,
+          "sha256": "a1b5724e5f1a99c78063617bfa32ed70b9d0385511e2612aeb4d1ff52c2a7485",
+          "production_seconds": 6.22,
+          "checks": {
+            "finite": true,
+            "peak": 0.57476806640625,
+            "rms": 0.07254552841186523,
+            "clipped_fraction": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

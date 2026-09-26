@@ -1,0 +1,11 @@
+{
+  "name": "html-parse-stringify",
+  "version": "3.0.1",
+  "license": "MIT",
+  "author": "Henrik Joreteg <henrik@joreteg.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrikjoreteg/html-parse-stringify"
+  },
+  "homepage": "https://github.com/henrikjoreteg/html-parse-stringify"
+}

@@ -1,0 +1,26 @@
+# Minimal import/runtime closure for the pinned IndexTTS 2.5 source.
+# Torch is installed first from the official cu128 index.
+torch @ https://download-r2.pytorch.org/whl/cu128/torch-2.8.0%2Bcu128-cp311-cp311-win_amd64.whl#sha256=34c55443aafd31046a7963b63d30bc3b628ee4a704f826796c865fdfd05bb596
+torchaudio @ https://download-r2.pytorch.org/whl/cu128/torchaudio-2.8.0%2Bcu128-cp311-cp311-win_amd64.whl#sha256=7a1eb6154e05b8056b34c7a41495e09d57f79eb0180eb4e7f3bb2a61845ca8ea
+accelerate==1.8.1
+transformers==4.52.1
+tokenizers==0.21.0
+safetensors==0.5.2
+numpy==2.2.6
+librosa==0.10.2.post1
+numba==0.63.0
+matplotlib==3.10.0
+modelscope==1.27.0
+descript-audiotools==0.7.2
+einops>=0.8.1
+omegaconf>=2.3.0
+munch==4.0.0
+sentencepiece>=0.2.1
+fugashi>=1.2.0
+unidic-lite>=1.0.0
+wetext>=0.0.9
+# Required for whisper.tokenizer.Tokenizer, no Whisper model is downloaded.
+openai-whisper==20250625
+requests>=2.28
+soundfile>=0.12.1
+setuptools<81

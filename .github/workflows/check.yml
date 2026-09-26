@@ -1,0 +1,78 @@
+name: Source and distribution checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify every published source and bundled asset checksum
+        run: python scripts/build_distribution.py --verify .
+      - name: Check package for private data and credentials
+        run: python scripts/build_distribution.py --audit .
+      - name: Portable startup and publication boundary tests
+        shell: pwsh
+        run: |
+          python -m unittest discover -s tests -p test_launcher.py -v
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python -m unittest discover -s tests -p test_runtime_portability.py -v
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python -m unittest discover -s tests -p test_distribution_package.py -v
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python -m unittest discover -s tests -p test_distribution_setup.py -v
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python -m unittest discover -s tests -p test_emotion_download.py -v
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      - name: Parse Windows installer
+        shell: powershell
+        run: |
+          $parseErrors = $null
+          $parseTokens = $null
+          [System.Management.Automation.Language.Parser]::ParseFile((Resolve-Path scripts/setup_windows.ps1), [ref]$parseTokens, [ref]$parseErrors) | Out-Null
+          if ($parseErrors.Count) { $parseErrors | ForEach-Object { Write-Error $_ }; exit 1 }
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.8'
+      - name: Install frontend dependencies
+        working-directory: upstream/voicebox
+        run: bun install --frozen-lockfile
+      - name: Typecheck and build
+        working-directory: upstream/voicebox
+        shell: pwsh
+        run: |
+          bun run typecheck
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          bun run build:web
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      - name: Playback and frontend regression tests
+        run: node --test tests/*.test.cjs
+
+  clean-install:
+    runs-on: windows-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install standalone preview environment without model weights
+        shell: powershell
+        run: .\scripts\setup_windows.ps1 -NoGui -Profile preview
+      - name: Start, reuse, verify 36 previews and shut down
+        shell: powershell
+        run: .\.venv\Scripts\python.exe scripts/validate_distribution.py --output validation/windows-preview.json
+      - name: Upload installation and validation logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-preview-validation
+          path: |
+            logs/*.log
+            validation/*.json
+          retention-days: 7

@@ -1,0 +1,37 @@
+# Local installations and model weights
+/.venv/
+/.venv-emotion/
+/runtime/
+/models/
+/cache/
+/logs/
+/publish/
+/validation/
+/upstream/indextts/
+/local_config.json
+/runtime-emotion/python/
+/runtime-emotion/metadata/*local*
+
+# Personal voices, recordings, projects and generated speech must stay local
+/data/*
+!/data/voice-library/
+/data/voice-library/*
+!/data/voice-library/catalog.json
+!/data/voice-library/audio/
+
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+/upstream/voicebox/web/dist/

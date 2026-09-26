@@ -1,0 +1,354 @@
+{
+  "schema": 1,
+  "platform": "windows-x86_64",
+  "python": "3.12.8",
+  "emotion_python": "3.11.16",
+  "uv": {
+    "url": "https://github.com/astral-sh/uv/releases/download/0.12.5/uv-x86_64-pc-windows-msvc.zip",
+    "sha256": "4c4d49d8738847d9b71ba319e49a5688c93eac0fe6204b1df24e98528dddf39a",
+    "version": "0.12.5"
+  },
+  "ffmpeg": {
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip",
+    "license": "GPL-3.0-or-later (Gyan essentials build; downloaded by user, not bundled)",
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+    "source": "https://ffmpeg.org/download.html#build-windows",
+    "version": "9.0.2"
+  },
+  "models": [
+    {
+      "repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "size": 3263,
+          "sha256": "1e3adeecc7a72d6756fdb77c2847f8e994195e105b51206a7a5c049b0dfa48a8",
+          "path": "README.md",
+          "git_blob": "ed613da23a5e133a506b13b79055854938b9e67c",
+          "mirrors": [
+            {
+              "revision": "70b274883e68023af521a9199603192d58ccdd3f",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/70b274883e68023af521a9199603192d58ccdd3f/README.md",
+              "sha256": "1e3adeecc7a72d6756fdb77c2847f8e994195e105b51206a7a5c049b0dfa48a8"
+            }
+          ]
+        },
+        {
+          "size": 4908,
+          "sha256": "81aca2b6fac304944d8acf345272d8a9a727d5fc2e2e66b222ab4729340c7455",
+          "path": "config.json",
+          "git_blob": "5e8d5fc100536984e3a89bd87ef08e59e322b29b",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/config.json",
+              "sha256": "81aca2b6fac304944d8acf345272d8a9a727d5fc2e2e66b222ab4729340c7455"
+            }
+          ]
+        },
+        {
+          "size": 245,
+          "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa",
+          "path": "generation_config.json",
+          "git_blob": "1872b16d4535564abf2db5d6debe6cddd82b7f2e",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/generation_config.json",
+              "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa"
+            }
+          ]
+        },
+        {
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "path": "merges.txt",
+          "git_blob": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/merges.txt",
+              "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+            }
+          ]
+        },
+        {
+          "size": 1811626576,
+          "sha256": "bc3c7e785eb961179c25450d1acff03f839e0002f2f3a5aeb67b5735c0fa2adb",
+          "path": "model.safetensors",
+          "git_blob": "7fcbae5382ce4359e3b538bad87c7bad6b931050",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/model.safetensors",
+              "sha256": "bc3c7e785eb961179c25450d1acff03f839e0002f2f3a5aeb67b5735c0fa2adb"
+            }
+          ]
+        },
+        {
+          "size": 127,
+          "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119",
+          "path": "preprocessor_config.json",
+          "git_blob": "0525dd953bb9241912f7147666f0d535165d5d4f",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/preprocessor_config.json",
+              "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119"
+            }
+          ]
+        },
+        {
+          "size": 2336,
+          "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167",
+          "path": "speech_tokenizer/config.json",
+          "git_blob": "06cc8dc4c5ec8a1929086b71b98c313020d9268b",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/speech_tokenizer/config.json",
+              "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167"
+            }
+          ]
+        },
+        {
+          "size": 76,
+          "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd",
+          "path": "speech_tokenizer/configuration.json",
+          "git_blob": "ab58e2eaf53cd14a1a2a7527d9261ceea93a24cd",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/speech_tokenizer/configuration.json",
+              "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd"
+            }
+          ]
+        },
+        {
+          "size": 682293092,
+          "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258",
+          "path": "speech_tokenizer/model.safetensors",
+          "git_blob": "026d66bfb5d730dcfd56450c5e9e51b3ef4e0712",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/speech_tokenizer/model.safetensors",
+              "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+            }
+          ]
+        },
+        {
+          "size": 234,
+          "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb",
+          "path": "speech_tokenizer/preprocessor_config.json",
+          "git_blob": "ba40914f4f49ab98a8ca545d4892ef7291a39592",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/speech_tokenizer/preprocessor_config.json",
+              "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb"
+            }
+          ]
+        },
+        {
+          "size": 7344,
+          "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670",
+          "path": "tokenizer_config.json",
+          "git_blob": "6ff9fd60cc623bb54bbd603cbd418c97a11528d7",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/tokenizer_config.json",
+              "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670"
+            }
+          ]
+        },
+        {
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "path": "vocab.json",
+          "git_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+          "mirrors": [
+            {
+              "revision": "3b07e1843e41f3863f213c84e7003ad836a059c6",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/3b07e1843e41f3863f213c84e7003ad836a059c6/vocab.json",
+              "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+            }
+          ]
+        }
+      ],
+      "directory": "models/qwen-custom-voice-0.6b"
+    },
+    {
+      "repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "size": 3640,
+          "sha256": "181187b6057906bd960bc7f938d0b7a16652509776a0d52c4885b4ae5ccda0ea",
+          "path": "README.md",
+          "git_blob": "50931da8c9b34f7233394b5c3063a47ef3285acf",
+          "mirrors": [
+            {
+              "revision": "fda1995a3162ad0488393cc366b82ca59c91c08e",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/fda1995a3162ad0488393cc366b82ca59c91c08e/README.md",
+              "sha256": "181187b6057906bd960bc7f938d0b7a16652509776a0d52c4885b4ae5ccda0ea"
+            }
+          ]
+        },
+        {
+          "size": 4494,
+          "sha256": "2e714c787c8edb98b05432685cddb634add2de4d4e645f653d68251ef72ba011",
+          "path": "config.json",
+          "git_blob": "4e923f500f5c3eeb78d44072e7049b28817c2e04",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/config.json",
+              "sha256": "2e714c787c8edb98b05432685cddb634add2de4d4e645f653d68251ef72ba011"
+            }
+          ]
+        },
+        {
+          "size": 245,
+          "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa",
+          "path": "generation_config.json",
+          "git_blob": "1872b16d4535564abf2db5d6debe6cddd82b7f2e",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/generation_config.json",
+              "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa"
+            }
+          ]
+        },
+        {
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "path": "merges.txt",
+          "git_blob": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/merges.txt",
+              "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+            }
+          ]
+        },
+        {
+          "size": 1829344272,
+          "sha256": "180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6",
+          "path": "model.safetensors",
+          "git_blob": "401a365c4572f09f44d48bb336fdbf94cd1e3ad2",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/model.safetensors",
+              "sha256": "180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6"
+            }
+          ]
+        },
+        {
+          "size": 127,
+          "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119",
+          "path": "preprocessor_config.json",
+          "git_blob": "0525dd953bb9241912f7147666f0d535165d5d4f",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/preprocessor_config.json",
+              "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119"
+            }
+          ]
+        },
+        {
+          "size": 2336,
+          "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167",
+          "path": "speech_tokenizer/config.json",
+          "git_blob": "06cc8dc4c5ec8a1929086b71b98c313020d9268b",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/speech_tokenizer/config.json",
+              "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167"
+            }
+          ]
+        },
+        {
+          "size": 76,
+          "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd",
+          "path": "speech_tokenizer/configuration.json",
+          "git_blob": "ab58e2eaf53cd14a1a2a7527d9261ceea93a24cd",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/speech_tokenizer/configuration.json",
+              "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd"
+            }
+          ]
+        },
+        {
+          "size": 682293092,
+          "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258",
+          "path": "speech_tokenizer/model.safetensors",
+          "git_blob": "026d66bfb5d730dcfd56450c5e9e51b3ef4e0712",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/speech_tokenizer/model.safetensors",
+              "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+            }
+          ]
+        },
+        {
+          "size": 234,
+          "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb",
+          "path": "speech_tokenizer/preprocessor_config.json",
+          "git_blob": "ba40914f4f49ab98a8ca545d4892ef7291a39592",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/speech_tokenizer/preprocessor_config.json",
+              "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb"
+            }
+          ]
+        },
+        {
+          "size": 7344,
+          "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670",
+          "path": "tokenizer_config.json",
+          "git_blob": "6ff9fd60cc623bb54bbd603cbd418c97a11528d7",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/tokenizer_config.json",
+              "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670"
+            }
+          ]
+        },
+        {
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "path": "vocab.json",
+          "git_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+          "mirrors": [
+            {
+              "revision": "7ee3cf0b7e7be29c5d8de06cd552b78263f01ece",
+              "url": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/7ee3cf0b7e7be29c5d8de06cd552b78263f01ece/vocab.json",
+              "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+            }
+          ]
+        }
+      ],
+      "directory": "models/qwen-base-0.6b"
+    }
+  ],
+  "emotion_source": {
+    "revision": "ee40fa7d6c6b8a2c7f06105f9f1e65775b74868c",
+    "url": "https://codeload.github.com/index-tts/index-tts/zip/ee40fa7d6c6b8a2c7f06105f9f1e65775b74868c",
+    "sha256": "a0e2c53621b090e142faee23e6815b9074548cffca2ff13d036a7025f6285468",
+    "license_url": "https://github.com/index-tts/index-tts/blob/ee40fa7d6c6b8a2c7f06105f9f1e65775b74868c/LICENSE"
+  }
+}
